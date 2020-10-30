@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TareaS3Git.MainPage">
+    <StackLayout Grid.Row="1" Padding="30,20">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="LOGIN" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+        </Frame>
+
+        <Entry x:Name="txtuser"
+               Placeholder="Ingrese el usuario">
+               </Entry>
+        <Entry x:Name="txtpass"
+               Placeholder="Ingrese la contraseña"
+               IsPassword="True"></Entry>
+
+
+
+        <Button x:Name="btnAbrir_ventana_dos"
+                Text="Iniciar sesion"
+                BackgroundColor="white"
+                TextColor="Black"
+                CornerRadius="60"
+               
+                Clicked="btnAbrir_ventana_dos_Clicked">
+
+        </Button>
+
+
+
+
+    </StackLayout>
+</ContentPage>

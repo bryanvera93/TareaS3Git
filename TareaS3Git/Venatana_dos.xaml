@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TareaS3Git.Venatana_dos">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+    
+            <Label Text="Ingreso notas Universidad Israel" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+
+            <Label Text="Bienvenido:"></Label>
+            <Label x:Name="lbluser"></Label>
+
+        <Label Text="Ingrese Nota seguimiento 1" FontSize="12"> </Label>
+        <Entry x:Name="txtSeg1" FontSize="12"> </Entry>
+
+        <Label Text="Ingrese Nota Examen 1" FontSize="12"> </Label>
+        <Entry x:Name="txtExa1" FontSize="12" > </Entry>
+
+        <Label Text="Parcial 1" FontSize="12"></Label>
+
+        <Entry x:Name="txtParcial1" FontSize="12" IsReadOnly="True"></Entry>
+
+        <Button x:Name="btnSumar"
+                FontSize="11"
+            Text="Nota Parcial 1"
+            Clicked="btnSumar_Clicked">
+        </Button>
+
+
+        <Label Text="Ingrese Nota seguimiento 2" FontSize="12"> </Label>
+        <Entry x:Name="txtSeg2" FontSize="12" > </Entry>
+
+        <Label Text="Ingrese Nota Examen 2" FontSize="10" > </Label>
+        <Entry x:Name="txtExa2" FontSize="12" > </Entry>
+
+        <Label Text="Parcial 2" FontSize="12"></Label>
+
+        <Entry x:Name="txtParcial2" FontSize="12" IsReadOnly="True"></Entry>
+
+        <Button x:Name="btnSumar2"
+                FontSize="11"
+                Text="Nota Parcial 2"
+            Clicked="btnSumar2_Clicked">
+        </Button>
+
+        
+
+        <Label Text="Su Nota final ES:          APROBADO" FontSize="12" ></Label>
+
+        <Entry x:Name="txtNotafin" IsReadOnly="True"></Entry>
+
+        <Button x:Name="btnNotafin"
+                FontSize="11"
+            Text="Nota final"
+            Clicked="btnNotafin_Clicked">
+        </Button>
+
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
